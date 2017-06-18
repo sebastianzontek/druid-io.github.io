@@ -51,6 +51,15 @@ With more than 1 billion unique users reached per month, 3 billion ads displayed
 
 Condé Nast uses Druid to track billions of events across our two dozen brands, both in real time and historically. Druid helps power dashboards, site performance trackers, and many other internal applications.
 
+## Deep.BI
+
+[Deep.BI](http://www.deep.bi) provides a complete big data platform for media companies that lets collect, store, analyze, and use data in real-time. Digital publishers use it for tracking content performance (any media: articles, video, ads, comments), optimize subscription funnels, segment users, manage audience lifecycle. They use it in real-time and histocial dashboards, as embedded analytics in other systems (CMS, CRM) or to support other systems, for example DMPs, ad servers.
+
+To make this possible we run a multi tenant Druid cluster in the hybrid cloud: our private cloud for processing power and Amazon AWS for storage, metadata and coordination tasks. Besides Druid, the key components of our platform are: Node.js (APIs), Kafka and Flink.
+
+We also provide Druid monitoring tool Druid Deep Watch with ready to use detailed dashboards and extended Druid metric set for fine tuning Druid configuration depending on specific usage patterns.
+
+
 ## Didi Chuxing
 
 Didi Chuxing is the world’s largest mobile transportation platform, offering a full range of commuting options to 400 cities in China.
